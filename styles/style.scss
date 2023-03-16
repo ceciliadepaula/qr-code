@@ -1,0 +1,58 @@
+/* WIDTHS */
+$mobile: 375px;
+$desktop: 1440px;
+
+/* COLORS */
+$white: hsl(0, 0%, 100%);
+$lightGray: hsl(212, 45%, 89%);
+$grayishBlue: hsl(220, 15%, 55%);
+$darkBlue: hsl(218, 44%, 22%);
+
+/* TYPOGRAPHY */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+$font: 'Outfit', sans-serif;
+$regular: 400;
+$bold: 700;
+
+/* BODY */
+body{
+    background-color: $lightGray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+/* CARD */
+section.card{
+    margin: 1rem;
+    max-width: calc(375px * 0.9);
+    background-color: $white;
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    height: fit-content;
+    .image{
+        img{
+            width: 100%;
+            border-radius: 1rem;
+        }
+    }
+    .description{
+        font-family: $font;
+        text-align: center;
+        padding: 0 9%;
+        h2.title{
+            font-weight: $bold;
+            color: $darkBlue;
+        }
+        p.text{
+            font-weight: $regular;
+            color: $grayishBlue;
+            font-size: 1rem;
+            line-height: 1.4rem;
+        }
+    }
+}

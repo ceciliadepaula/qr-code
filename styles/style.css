@@ -1,0 +1,58 @@
+/* WIDTHS */
+/* COLORS */
+/* TYPOGRAPHY */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+/* BODY */
+body {
+  background-color: #d6e2f0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+/* CARD */
+section.card {
+  margin: 1rem;
+  max-width: calc(375px * 0.9);
+  background-color: white;
+  border-radius: 1rem;
+  padding: 1rem;
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+section.card .image img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+section.card .description {
+  font-family: "Outfit", sans-serif;
+  text-align: center;
+  padding: 0 9%;
+}
+
+section.card .description h2.title {
+  font-weight: 700;
+  color: #1f3251;
+}
+
+section.card .description p.text {
+  font-weight: 400;
+  color: #7b879d;
+  font-size: 1rem;
+  line-height: 1.4rem;
+}
+/*# sourceMappingURL=style.css.map */
